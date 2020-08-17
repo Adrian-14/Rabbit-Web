@@ -6,7 +6,7 @@ text-uppercase{
 }
 .button{
     padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
+    font: normal 500 16px/ 20px var(--roboto);
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
@@ -28,7 +28,7 @@ text-uppercase{
     top: -2px; left: -2px;
     bottom: -2px; right: -2px;
     background: var(--gradient-color);
-    content: '  ';
+    content: '';
     z-index: -1;
     border-radius: 4px;
 }
