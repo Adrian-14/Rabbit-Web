@@ -1,18 +1,18 @@
 @import url(./fonst.css);
-@import url(./estilos/_varibles.css);
+@import url(./estilos/_variables.css);
 @import url(./estilos/_global.css);
 
 .header_area .main-menu .navbar .navbar-brand{
-   padding: 0 2rem 0 5rem;
+   padding: 0.2rem 0.2rem;
 }
 .header_area .main-menu .navbar{
    padding:  1rem 20rem;
 }
 .header_area .main-menu .nav-item .nav-link{
-   font-family: var(--reboto);
+   font-family: var(--roboto);
    text-transform: uppercase;
    font-weight: 500;
-   padding: 1.7rem;
+   padding: 1.1rem;
    color: var(--title-color);
 }
 .header_area .main-menu .navbar-nav .active a{
@@ -26,4 +26,22 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text ;
+}
+.site-main .site-banner{
+   background: url(../images/fondo.png) no-repeat 0% 85%;
+   padding: 90px;
+}
+.site-main .site-banner .site-title h3{
+   padding-top: 3%;
+   font-weight: 500;
+}
+.site-main .site-banner .site-title h1{
+   font-size: 5rem;
+}
+.site-main .site-banner .site-title h4{
+   font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+   padding: 2rem 0;
+   width: 90rem;
 }
