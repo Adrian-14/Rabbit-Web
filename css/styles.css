@@ -6,6 +6,7 @@
    padding: 0.2rem 0.2rem;
 }
 .header_area .main-menu .navbar{
+   background: var(--gradient-color);
    padding:  1rem 20rem;
 }
 .header_area .main-menu .nav-item .nav-link{
@@ -44,20 +45,6 @@
    padding: 2rem 0;
    width: 90rem;
 }
-#base{
-   position:absolute;
-   height: 90rem;
-   top: 0px;
-   left : 0px;
-   z-index: -1;
-}
-#banner{
-   position:absolute;
-   width:90rem;
-   top: 0px;
-   left : 0px;
-   z-index: 1;
-}
 .site-main .services-area{
    padding: 2rem 1rem;
 }
@@ -68,12 +55,24 @@
    font-size: 35px;
 }
 .site-main > .services-area .services{
-   background: rgba(248, 252, 253, 0.973);
+   background: rgba(246, 246, 246, 0.973);
    padding: 2rem 0;
    width: 16rem;
-   margin: 5rem .5rem;
+   margin: .1rem .5rem;
    transition: box-shadow .7s ease;
 }
 .site-main > .services-area .services:hover{
    box-shadow: var(--box-shadow);
+}
+#diseno{
+   height: 50px;
+   width: 50px;
+}
+#desarrollo{
+      height: 50px;
+      width: 50px;
+}
+#web{
+   height: 50px;
+   width: 50px;
 }
