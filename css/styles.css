@@ -126,7 +126,8 @@ filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
    height: 12px;
 }
 .site-main .subscribe-us-area .subscribe{
-   background: var(--gradient-color);
+   border-radius: 50px;
+  background: #8fd3f4;
    padding: 10rem 0;
    margin: 3rem auto;
 }
@@ -158,7 +159,6 @@ filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 footer.footer-area{
    padding: 4rem 0;
-   background: #000;
 }
 footer.footer-area h5{
    font: normal 500 23px/ 30px var(--roboto);
