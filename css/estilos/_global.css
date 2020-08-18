@@ -14,12 +14,11 @@ text-uppercase{
 .button.primary-button{
     background: var(--gradient-color);
     background-clip: padding-box;
-    color: whitesmoke;
+    color: white;
     transition: background .6s ease;
-    box-shadow: var(--box-shadow);
 }
 .button.primary-button:hover{
-    background: whitesmoke;
+    background: white;
     background-clip: padding-box;
     color: black;
 }
@@ -39,8 +38,9 @@ text-uppercase{
 }
 .button.secondary-button:hover{
     background: var(--gradient-color);
-    color: whitesmoke;
-    box-shadow: var(--box-shadow);
+    background-clip: padding-box;
+    color: white;
+    transition: background .6s ease;
 }
 p.para{
     color: var(--text-color);
