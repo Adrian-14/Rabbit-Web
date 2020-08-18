@@ -83,7 +83,7 @@
 .site-main .project-area .button-group button{
    background: transparent;
    border: none;
-   font: normal 500 16px/ 130px var(--roboto);
+   font: normal 500 16px/130px var(--roboto);
    text-decoration: uppercaset;
 }
 .site-main .project-area .button-group button * button{
