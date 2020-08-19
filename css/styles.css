@@ -127,7 +127,8 @@ filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 .site-main .subscribe-us-area .subscribe{
    border-radius: 50px;
-  background: #8fd3f4;
+  background: #f48f8f;
+  box-shadow: var(--box-shadow);
    padding: 10rem 0;
    margin: 3rem auto;
 }
