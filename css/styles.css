@@ -127,8 +127,8 @@ filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 .site-main .subscribe-us-area .subscribe{
    border-radius: 50px;
-  background: #f48f8f;
-  box-shadow: var(--box-shadow);
+   background: #f48f8f;
+   box-shadow: var(--box-shadow);
    padding: 10rem 0;
    margin: 3rem auto;
 }
@@ -159,15 +159,17 @@ filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
    border-radius: 15px;
 }
 footer.footer-area{
+   background: black;
    padding: 4rem 0;
 }
 footer.footer-area h5{
    font: normal 500 23px/ 30px var(--roboto);
+   color: blanchedalmond;
 }
 footer.footer-area a > i{
    font-size: 22px;
    padding: 3rem;
-   color: var(--border-color);
+   color: blanchedalmond;
 }
 footer.footer-area a:hover > i{
    color: var(--gradient-color);
