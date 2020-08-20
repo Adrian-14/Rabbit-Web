@@ -65,11 +65,7 @@ $(document).ready(function () {
 //efecto escritura
 
 const typed = new Typed('.typed', {
-    strings: [
-        '<i  class="texto">Nosotros hacemos</i>',
-        '<i  class="texto">Tu sitio web</i>',
-    ],
-    stringsElement: '#escritura',
+    stringsElement: '#cadena-texto',
     typeSpeed: 75,
     startDelay: 300,
     backSpeed: 75,
