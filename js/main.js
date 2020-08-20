@@ -64,3 +64,9 @@ $(document).ready(function () {
 
 //efecto escritura
 
+const typed = new Typed('.typed', {
+    strings: [
+        '<i  class="texto">Programador Web</i>',
+        '<i  class="texto">Diseñador Web</i>',
+    ]
+});

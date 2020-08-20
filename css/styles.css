@@ -27,6 +27,7 @@
    -webkit-text-fill-color: transparent;
    background-clip: text ;
 }
+
 .site-main .site-banner{
    padding: 90px;
 }
@@ -43,6 +44,11 @@
 .site-main .site-banner .banner-image > img{
    padding: 2rem 0;
    width: 90rem;
+}
+.site.main .site-banner .texto{
+   font-weight: bold;
+   color: var(--gradient-color);
+   margin-bottom: 40px;
 }
 .site-main .services-area{
    padding: 2rem 1rem;
