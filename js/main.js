@@ -66,7 +66,18 @@ $(document).ready(function () {
 
 const typed = new Typed('.typed', {
     strings: [
-        '<i  class="texto">Programador Web</i>',
-        '<i  class="texto">Diseñador Web</i>',
-    ]
+        '<i  class="texto">Nosotros hacemos</i>',
+        '<i  class="texto">Tu sitio web</i>',
+    ],
+    stringsElement: '#escritura',
+    typeSpeed: 75,
+    startDelay: 300,
+    backSpeed: 75,
+    smartBackspace: true,
+    shuffle: false,
+    backDelay: 1500,
+    loop: true,
+    loopCount: false,
+    showCursor: true,
+    contentType: 'html',
 });
