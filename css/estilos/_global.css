@@ -65,10 +65,10 @@ button:hover
     width: 100%;
     top: -1px;
     left: 0; right: 0;
-    background: #ffffff;
+    background: #000000d4;
     box-shadow: var(--box-shadow);
     z-index: 999;
-    transition: background 1s ease;
+    /*transition: background 1s ease;*/
 }
 button:focus,
 button:active
