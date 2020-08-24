@@ -2,13 +2,18 @@
 @import url(./estilos/_variables.css);
 @import url(./estilos/_global.css);
 
+/*barra de menu*/
+
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0.2rem 0.2rem;
 }
 .header_area .main-menu .navbar {
-background: transparent !important;
+background-color: transparent !important;
   padding: 1rem 20rem;
 }
+
+/*menu style*/
+
 .header_area .main-menu .nav-item .nav-link {
   font-family: var(--roboto);
   text-transform: uppercase;
@@ -29,10 +34,15 @@ background: transparent !important;
   background-clip: text;
 }
 
+/*styles del banner*/
+
 .site-main .site-banner {
   background-image: url("../images/1.jpg");
   padding: 100px;
 }
+
+/*banner texto styles*/
+
 .site-main .site-banner .site-title h3 {
   padding-top: 3%;
   font-weight: 500;
@@ -47,6 +57,9 @@ background: transparent !important;
   padding: 2rem 0;
   width: 90rem;
 }
+
+/*Area de Servicios style*/
+
 .site-main .services-area {
   padding: 2rem 1rem;
 }
@@ -79,6 +92,8 @@ background: transparent !important;
   width: 50px;
 }
 
+/*area de diseños style*/
+
 .site-main .project-area {
   padding: 4rem 0;
 }
@@ -97,6 +112,8 @@ background: transparent !important;
 .site-main .project-area .grid .our-project .img a:hover img {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
+
+/*testimonios styles*/
 
 .site-main .about-area .about-title p {
   padding: 1rem 7rem;
@@ -128,6 +145,9 @@ background: transparent !important;
   width: 12px;
   height: 12px;
 }
+
+/*subscribete styles*/
+
 .site-main .subscribe-us-area .subscribe {
   border-radius: 50px;
   background: #f48f8f;
@@ -166,6 +186,9 @@ background: transparent !important;
   padding: 0.7rem 2rem;
   border-radius: 15px;
 }
+
+/*pie de pagina styles*/
+
 footer.footer-area {
   background: black;
   padding: 4rem 0;
