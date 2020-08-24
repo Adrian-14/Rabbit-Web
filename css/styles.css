@@ -29,7 +29,8 @@
 }
 
 .site-main .site-banner {
-  padding: 90px;
+  background-image: url("../images/1.jpg");
+  padding: 100px;
 }
 .site-main .site-banner .site-title h3 {
   padding-top: 3%;
