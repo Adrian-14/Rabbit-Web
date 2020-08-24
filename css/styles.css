@@ -6,6 +6,7 @@
   padding: 0.2rem 0.2rem;
 }
 .header_area .main-menu .navbar {
+background: transparent !important;
   padding: 1rem 20rem;
 }
 .header_area .main-menu .nav-item .nav-link {
@@ -45,11 +46,6 @@
 .site-main .site-banner .banner-image > img {
   padding: 2rem 0;
   width: 90rem;
-}
-.site.main .site-banner .escritura .texto {
-  font-weight: bold;
-  color: red;
-  font-style: normal;
 }
 .site-main .services-area {
   padding: 2rem 1rem;
