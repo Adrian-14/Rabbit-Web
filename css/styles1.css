@@ -1,0 +1,207 @@
+@import url(./fonst.css);
+@import url(./estilos/_variables.css);
+@import url(./estilos/_global.css);
+
+/*barra de menu*/
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0.2rem 0.2rem;
+}
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+/*menu style*/
+
+.header_area .main-menu .nav-item .nav-link {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.1rem;
+  color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*styles del banner*/
+
+.site-main .site-banner {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 25%;
+  min-height: 100px;
+}
+
+/*banner texto styles*/
+
+.site-main .site-banner .site-title h1 {
+  padding-top: 3%;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 70px;
+}
+.site-main .site-banner .site-title h4 {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+
+/*Area de Servicios style*/
+
+.site-main .services-area {
+  padding: 2rem 1rem;
+}
+.site-main .services-area .services-title {
+  padding: 0 14rem;
+}
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+.site-main > .services-area .services {
+  background: rgba(246, 246, 246, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 0.1rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+.site-main > .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+#diseno {
+  height: 50px;
+  width: 50px;
+}
+#desarrollo {
+  height: 50px;
+  width: 50px;
+}
+#web {
+  height: 50px;
+  width: 50px;
+}
+
+/*area de diseños style*/
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-decoration: uppercaset;
+}
+.site-main .project-area .button-group button * button {
+  padding-left: 3rem;
+}
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+.site-main .project-area .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/*testimonios styles*/
+
+.site-main .about-area .about-title p {
+  padding: 1rem 7rem;
+}
+.site-main .about-area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+.site-main .about-area .client .client-img {
+  padding: 2rem;
+}
+.site-main .about-area .client .about-client {
+  padding-top: 2rem;
+}
+.site-main .about-area .client .about-client h4 {
+  font: normal 500 21px/ 20px var(--roboto);
+}
+.site-main .about-area .client .about-client p {
+  font-size: 14px;
+}
+.site-main .about-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.site-main .about-area .owl-carousel .owl-dost .owl-dot.active span {
+  background: var(--primary-color2);
+  width: 12px;
+  height: 12px;
+}
+
+/*subscribete styles*/
+
+.site-main .subscribe-us-area .subscribe {
+  border-radius: 50px;
+  background: #f48f8f;
+  box-shadow: var(--box-shadow);
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+.site-main .subscribe-us-area .subscribe .subscribete-title h4 {
+  font: normal 700 30px/ 30px var(--roboto);
+  color: white;
+}
+.site-main .subscribe-us-area .subscribe .subscribete-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+  width: 450px;
+  padding: 0.8rem 2rem;
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  background: transparent;
+  color: white;
+  font: normal 500 17px/ 20px var(--roboto);
+}
+.site-main
+  .subscribe-us-area
+  .subscribe
+  form
+  .input-textbox
+  input::placeholder {
+  color: whitesmoke;
+}
+.site-main .subscribe-us-area .subscribe form .btn-submit button {
+  background: whitesmoke;
+  color: #000;
+  padding: 0.7rem 2rem;
+  border-radius: 15px;
+}
+
+/*pie de pagina styles*/
+
+footer.footer-area {
+  background: #151B26;
+  padding: 4rem 0;
+}
+footer.footer-area h5 {
+  font: normal 500 23px/ 30px var(--roboto);
+  color: blanchedalmond;
+}
+footer.footer-area a > i {
+  font-size: 22px;
+  padding: 3rem;
+  color: blanchedalmond;
+}
+footer.footer-area a:hover > i {
+  color: var(--gradient-color);
+}
