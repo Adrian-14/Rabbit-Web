@@ -10164,3 +10164,33 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+/*testimonios styles*/
+
+.page-section .about-title p {
+  padding: 1rem 7rem;
+}
+ .page-section .client {
+  background: #ffffff10;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  margin: 3rem 0rem;
+}
+ .page-section .client .client-img {
+  padding: 2rem;
+}
+ .page-section .client .about-client {
+  padding-top: 2rem;
+}
+
+ .page-section .client .about-client p {
+  font-size: 14px;
+}
+ .page-section .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+ .page-section .owl-carousel .owl-dost .owl-dot.active span {
+  background: #4919a9;
+  width: 12px;
+  height: 12px;
+}

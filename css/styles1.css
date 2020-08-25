@@ -129,9 +129,7 @@
  .page-section .client .about-client {
   padding-top: 2rem;
 }
-.page-section .client .about-client h4 {
-  font: normal 500 21px/ 20px var(--roboto);
-}
+
  .page-section .client .about-client p {
   font-size: 14px;
 }
