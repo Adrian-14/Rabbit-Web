@@ -116,65 +116,61 @@
         </div>
     </section>
     <!-- Portfolio-->
-    <div id="portfolio">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="./images/img1.png">
-                        <img class="img-fluid" src="./images/img1.png" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
+    <div class="project-area" id="portfolio">
+        <div class="container">
+            <div class="project-title pb-5">
+                <h1 class="text-uppercase title-h1">Algo de</h1>
+                <h1 class="text-uppercase title-h1">nuestro trabajo</h1>
+            </div>
+            <div class="button-group">
+                <button type="button" class="active" id="btn1" data-filter="*">
+                    Todo
+                </button>
+                <button data-filter=".webs">Webs</button>
+                <button data-filter=".tienda">Tiendas</button>
+                <button data-filter=".bloc">Bloc</button>
+            </div>
+            <div class="row grid">
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item webs">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./images/img1.png">
+                                <img src="./images/img1.png" alt="portafolio1" class="img-fluid" />
+                            </a>
                         </div>
-                    </a>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">diseño</h4>
+                            <span class="text-secondary">lo último</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="./images/img2.jpg">
-                        <img class="img-fluid" src="./images/img2.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item tienda">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./images/img2.jpg">
+                                <img src="./images/img2.jpg" alt="portafolio2" class="img-fluid" />
+                            </a>
                         </div>
-                    </a>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">diseño</h4>
+                            <span class="text-secondary">lo último</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="./images/img3.jpg">
-                        <img class="img-fluid" src="./images/img3.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item bloc">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./images/img3.jpg">
+                                <img src="./images/img3.jpg" alt="portafolio3" class="img-fluid" />
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="./images/img4.jpg">
-                        <img class="img-fluid" src="./images/img4.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">diseño</h4>
+                            <span class="text-secondary">lo último</span>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="./images/img5.jpg">
-                        <img class="img-fluid" src="./images/img5.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="./images/img6.jpg">
-                        <img class="img-fluid" src="./images/img6.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
     <!-- Testimonios-->
     <section class="page-section" id="testimonios">
@@ -266,7 +262,7 @@
                                 <li>Lorem ipsum dolor.</li>
                                 <li>Lorem ipsum dolor.</li>
                             </ul>
-                            <button class="btn btn-lg btn-block btn-primary">Pedir paquete</button>
+                            <button class="btn btn-lg btn-block btn-success">Pedir paquete</button>
                         </div>
                     </div>
                     <div class="card mb-4 shadow-sm">
@@ -289,7 +285,7 @@
         </div>
     </section>
     <!-- Contact-->
-    <section class="about-area" id="contact">
+    <section class="about-area py-5" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
