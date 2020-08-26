@@ -2531,13 +2531,13 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #2C73D2;
+  border-color: #2C73D2;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: #286dc6;
+  border-color: #286dc6;
 }
 .btn-success:focus, .btn-success.focus {
   color: #fff;
@@ -2735,8 +2735,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: #03c6e4;
+  border-color: #03c6e4;;
 }
 .btn-outline-secondary:hover {
   color: #fff;
