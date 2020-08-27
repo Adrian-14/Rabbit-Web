@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color:  #009EFA;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #00D2FC;
   text-decoration: underline;
 }
 
@@ -10029,7 +10029,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 #mainNav {
@@ -10097,7 +10097,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.822) 0%, rgba(4, 4, 4, 0.041) 100%), url("../images/1.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.822) 0%, rgba(4, 4, 4, 0.041) 100%), url("../images/2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10211,4 +10211,18 @@ header.masthead h1 {
 }
 .project-area .grid .our-project .img a:hover img {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/*styles social*/
+
+footer .social{
+  font-size: 40px;
+}
+
+/*contacto*/
+
+section .about-area{
+ background-repeat: no-repeat;
+ background-image: url(../images/blob.svg);
+ font-size: 30px;
 }
