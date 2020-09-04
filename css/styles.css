@@ -10227,3 +10227,7 @@ section .about-area{
  background-image: url(../images/blob.svg);
  font-size: 30px;
 }
+
+.list-1{
+  font-size: 1.50rem;
+}
