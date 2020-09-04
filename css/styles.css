@@ -10215,20 +10215,6 @@ header.masthead h1 {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
-/*styles social*/
-
-footer .social{
-  font-size: 40px;
-}
-
-/*contacto*/
-
-section .about-area{
- background-repeat: no-repeat;
- background-image: url(../images/blob.svg);
- font-size: 30px;
-}
-
 .list-1{
   font-size: 1.50rem;
 }
