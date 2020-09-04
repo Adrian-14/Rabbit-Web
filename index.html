@@ -16,11 +16,9 @@
 
     <!-- Third party plugin CSS-->
     <link rel="stylesheet" href="./Magnific-Popup/magnific-popup.css" />
-    <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="./owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./owl-carousel/owl.theme.default.min.css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="stylesheet" href="css/styles.css" />
+    
 </head>
 
 <body id="page-top">
@@ -64,11 +62,11 @@
     <section class="page-section bg-primary" id="about">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
+                <div class="col-lg-12 text-center">
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6 col-lg-6 col-sm-12">
                             <h1 class="text-grey">¿Por qué elegirnos?</h1>
-                            <h5 class="text-grey">Somos una empresa especializada en Diseño de Páginas Web,
+                            <h5 class="text-grey" >Somos una empresa especializada en Diseño de Páginas Web,
                                 ayudamos a empresas y negocios a incrementar sus ventas, crear estrategias de
                                 posicionamiento.</h5>
                         </div>
@@ -94,7 +92,7 @@
                                 <li class="list-1"><i class="fas fa-check-circle fa-1x" style="color: green;"></i>
                                     Promociones constantes.</li>
                                 <li class="list-1"><i class="fas fa-check-circle fa-1x" style="color: green;"></i>
-                                    Servicio eficaz y de buena calidad.</li>
+                                    Servicio de buena calidad.</li>
                                 <li class="list-1"><i class="fas fa-check-circle fa-1x" style="color: green;"></i>
                                     Dominio en línea al cerrar el trato.</li>
                             </ul>
@@ -107,14 +105,14 @@
             <div class="row justify-content-center">
                 <div class="col-md-4 text-center">
                     <h1 class="text-grey">Oswaldo</h1>
-                    <img src="images/yo.jpg" class="rounded-circle" alt="Eniun" height="200px" width="200px">
+                    <img src="images/yo.jpg" class="rounded-circle shadow-lg p-3 bg-white rounded" alt="Eniun" height="300px" width="300px">
                     <br>
                     <br>
                     <p class="text-muted text-grey-50">Licenciado en Informatica <br> CEO y Fundador de Rabbit Web<br> Diseñador y Desarrollador Web</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <h1 class="text-grey">Brenda</h1>
-                    <img src="images/brenda.jpg" class="rounded-circle" alt="Eniun" height="200px" width="200px">
+                    <img src="images/brenda.jpg" class="rounded-circle shadow-lg p-3" alt="Eniun" height="300px" width="300px">
                     <br>
                     <br>
                     <p class="text-muted text-grey-50">Ingeniaría en Sistemas Computacionales <br> CEO <br> Especilidad en Sistemas distribuidos de informacion </p>
@@ -163,10 +161,10 @@
         </div>
     </section>
     <!-- Portfolio-->
-    <section class="project-area" id="portfolio">
+    <section class="project-area" id="portfolio" >
         <div class="container">
             <div class="project-title pb-5">
-                <h1 class="text-uppercase title-h1">Nuestros Diseños</h1>
+                <h1 class="text-uppercase title-h1">Diseños</h1>
             </div>
             <div class="row grid">
                 <div class="col-lg-4 col-md-6 col-sm-12 element-item webs">
@@ -275,7 +273,42 @@
                             <li><i class="fas fa-angle-double-right"></i>Google Maps con dirección de sus instalaciones
                             </li>
                         </ul>
-                        <button class="btn btn-lg btn-block btn-outline-primary">Pedir paquete</button>
+                        <button class="btn btn-lg btn-block btn-outline-primary" type="button" data-toggle="modal" data-target="#paquete1" data-whatever="Personal">Pedir paquete</button>
+                        <div class="modal fade" id="paquete1" tabindex="-1" aria-labelledby="paquete1label" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="paquete1label">Quiero el Paquete 1</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="#" method="POST">
+                                            <div class="form-group">
+                                                <label for="nombre-text" >Nombre</label>
+                                                <input type="text" class="form-control" id="nombre">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="destinatario-text" >Destinatario</label>
+                                                <input type="text" class="form-control" id="Destinatario">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="correo-text" >Correo</label>
+                                                <input type="email" class="form-control" id="email">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                              </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card mb-4 shadow-sm">
@@ -296,12 +329,47 @@
                             <li><i class="fas fa-angle-double-right"></i>Google Maps con dirección de sus instalaciones
                             </li>
                         </ul>
-                        <button class="btn btn-lg btn-block btn-success">Pedir paquete</button>
+                        <button class="btn btn-lg btn-block btn-success" type="button" data-toggle="modal" data-target="#paquete1" data-whatever="Profecional">Pedir paquete</button>
+                        <div class="modal fade" id="paquete1" tabindex="-1" aria-labelledby="paquete1label" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="paquete1label">Profecional</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="#" method="POST">
+                                            <div class="form-group">
+                                                <label for="nombre-text" >Nombre</label>
+                                                <input type="text" class="form-control" id="nombre">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="destinatario-text" >Destinatario</label>
+                                                <input type="text" class="form-control" id="Destinatario">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="correo-text" >Correo</label>
+                                                <input type="email" class="form-control" id="email">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                              </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card mb-4 shadow-sm">
                     <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Tienda en linea</h4>
+                        <h4 class="my-0 font-weight-normal">Tienda en línea</h4>
                     </div>
                     <div class="card-body">
                         <h1 class="card-title pricing-card-title">$13,500 <small class="text-muted">MXN</small></h1>
@@ -318,14 +386,49 @@
                             <li><i class="fas fa-angle-double-right"></i>Mantenimiento por 3 meses gratis</li>
                             <li><i class="fas fa-angle-double-right"></i>Integracion de redes sociales</li>
                         </ul>
-                        <button class="btn btn-lg btn-block btn-outline-primary">Pedir paquete</button>
+                        <button class="btn btn-lg btn-block btn-outline-primary" type="button" data-toggle="modal" data-target="#paquete1" data-whatever="Tienda en línea">Pedir paquete</button>
+                        <div class="modal fade" id="paquete1" tabindex="-1" aria-labelledby="paquete1label" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="paquete1label">Tienda en línea</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="#" method="POST">
+                                            <div class="form-group">
+                                                <label for="nombre-text" >Nombre</label>
+                                                <input type="text" class="form-control" id="nombre">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="destinatario-text" >Destinatario</label>
+                                                <input type="text" class="form-control" id="Destinatario">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="correo-text" >Correo</label>
+                                                <input type="email" class="form-control" id="email">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                              </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact-->
-    <section class="about-area py-5" id="contact">
+    <section class="about-area py-5" id="contact" >
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -366,16 +469,10 @@
     </footer>
     <!-- Bootstrap core JS-->
     <script src="./jquery/jquery-3.5.1.slim.min.js"></script>
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="/jquery/jquery.easing.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="/Magnific-Popup/jquery.magnific-popup.min.js"></script>
     <!-- Core theme JS-->
-    <script src="./js/main.js"></script>
     <script src="./js/scripts.js"></script>
-    <script src="/__/firebase/7.18.0/firebase-app.js"></script>
-    <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
-    <script src="/__/firebase/init.js"></script>
 </body>
 
 </html>

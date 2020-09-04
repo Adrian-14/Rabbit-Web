@@ -10201,6 +10201,8 @@ header.masthead h1 {
 
 .project-area {
   padding: 4rem 0;
+  background-repeat: no-repeat;
+  background-image: url(/images/fondo.jpg);
 }
 .project-area .button-group button {
   background: transparent;
