@@ -2533,13 +2533,13 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #2C73D2;
-  border-color: #2C73D2;
+  background-color: #51A847;
+  border-color: #51A847;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #286dc6;
-  border-color: #286dc6;
+  background-color: #18b307;
+  border-color: #18b307;
 }
 .btn-success:focus, .btn-success.focus {
   color: #fff;
@@ -2762,7 +2762,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
+  color: #18b307;
+  background: #fff;
   border-color: #28a745;
 }
 .btn-outline-success:hover {
@@ -10230,4 +10231,17 @@ section .about-area{
 
 .list-1{
   font-size: 1.50rem;
+}
+
+/*chat de whatsapp*/
+
+#app-whatsapp{
+	position: fixed;
+	right: 20px;
+	width: 60px;
+	z-index: 1000;
+}
+#app-whatsapp{
+	bottom: 40px;
+	display: block;
 }
