@@ -294,25 +294,27 @@
                                     <div class="modal-body">
                                         <form action="#" method="POST">
                                             <div class="form-group">
-                                                <label for="nombre-text">Nombre</label>
-                                                <input type="text" class="form-control" id="nombre">
+                                                <label for="seleccion">Paquete</label>
+                                                <select  class="form-control" id="seleccion" name="paquete">
+                                                    <option value="#">Personal</option>
+                                                </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="destinatario-text">Destinatario</label>
-                                                <input type="text" class="form-control" id="Destinatario">
+                                                <label for="nombre-text">Nombre</label>
+                                                <input type="text" class="form-control" id="nombre"  name="nombre">
                                             </div>
                                             <div class="form-group">
                                                 <label for="correo-text">Correo</label>
-                                                <input type="email" class="form-control" id="email">
+                                                <input type="email" class="form-control" id="email" name="email">
                                             </div>
                                             <div class="form-group">
                                                 <label for="message-text" class="col-form-label">Mensaje:</label>
-                                                <textarea class="form-control" id="message-text"></textarea>
+                                                <textarea class="form-control" id="message-text" name="msj"></textarea>
                                             </div>
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                        <button type="button" class="btn btn-primary">Pedir paquete</button>
                                     </div>
                                 </div>
                             </div>
@@ -352,20 +354,22 @@
                                     <div class="modal-body">
                                         <form action="#" method="POST">
                                             <div class="form-group">
-                                                <label for="nombre-text">Nombre</label>
-                                                <input type="text" class="form-control" id="nombre">
+                                                <label for="seleccion">Paquete</label>
+                                                <select  class="form-control" id="seleccion" name="paquete">
+                                                    <option value="#">Profecional</option>
+                                                </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="destinatario-text">Destinatario</label>
-                                                <input type="text" class="form-control" id="Destinatario">
+                                                <label for="destinatario-text">Nombre</label>
+                                                <input type="text" class="form-control" id="nombre" name="nombre">
                                             </div>
                                             <div class="form-group">
                                                 <label for="correo-text">Correo</label>
-                                                <input type="email" class="form-control" id="email">
+                                                <input type="email" class="form-control" id="email" name="email">
                                             </div>
                                             <div class="form-group">
                                                 <label for="message-text" class="col-form-label">Mensaje:</label>
-                                                <textarea class="form-control" id="message-text"></textarea>
+                                                <textarea class="form-control" id="message-text" name="msj"></textarea>
                                             </div>
                                         </form>
                                     </div>
@@ -411,20 +415,22 @@
                                     <div class="modal-body">
                                         <form action="#" method="POST">
                                             <div class="form-group">
-                                                <label for="nombre-text">Nombre</label>
-                                                <input type="text" class="form-control" id="nombre">
+                                                <label for="seleccion">Paquete</label>
+                                                <select  class="form-control" id="seleccion" name="paquete">
+                                                    <option value="#">Tienda en línea</option>
+                                                </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="destinatario-text">Destinatario</label>
-                                                <input type="text" class="form-control" id="Destinatario">
+                                                <label for="destinatario-text">Nombre</label>
+                                                <input type="text" class="form-control" id="nombre" name="nombre">
                                             </div>
                                             <div class="form-group">
                                                 <label for="correo-text">Correo</label>
-                                                <input type="email" class="form-control" id="email">
+                                                <input type="email" class="form-control" id="email" name="email">
                                             </div>
                                             <div class="form-group">
                                                 <label for="message-text" class="col-form-label">Mensaje:</label>
-                                                <textarea class="form-control" id="message-text"></textarea>
+                                                <textarea class="form-control" id="message-text" name="msj"></textarea>
                                             </div>
                                         </form>
                                     </div>
@@ -451,7 +457,7 @@
                             <form>
                                 <div class="form-row align-items-center">
                                   <div class="col-md-8">
-                                    <input type="email" class="form-control mb-2" id="inlineFormInput" placeholder="Correo...">
+                                    <input type="email" class="form-control mb-2" id="inlineFormInput" required placeholder="Correo...">
                                   </div>
                                   <div class="col-auto">
                                     <button type="submit" class="btn btn-primary mb-2">Enviar</button>
