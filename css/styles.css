@@ -2914,12 +2914,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #f4623a;
+  color: #000000;
   text-decoration: none;
 }
 .btn-link:hover {
   color: #d6370c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:focus, .btn-link.focus {
   text-decoration: underline;
