@@ -10226,11 +10226,9 @@ header.masthead h1 {
 #app-whatsapp{
 	position: fixed;
 	right: 20px;
-	width: 60px;
-	z-index: 1000;
-}
-#app-whatsapp{
-	bottom: 40px;
+	width: 50px;
+  z-index: 1000;
+  bottom: 20px;
 	display: block;
 }
 /* formulario email*/
